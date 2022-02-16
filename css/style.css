@@ -14,15 +14,16 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 8px;
+    padding: 18px;
     background-color: #242023;
     border-bottom: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .title {
     color: white;
     text-align: center;
-    background: linear-gradient(-50deg, #fff7c3 50%, #ffc57c 50%);
+    background: linear-gradient(-50deg, #fff7c3 30%, #ffc57c 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -38,6 +39,8 @@ body {
 
 .tab ul li {
     cursor: pointer;
+    font-weight: bold;
+
 }
 
 .tab ul .play {
@@ -57,7 +60,7 @@ body {
 
 .tab ul .play:hover {
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 2px;
     cursor: pointer;
     padding: 7px 12%;
     background: rgba(67, 68, 72, 1);
